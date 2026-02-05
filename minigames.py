@@ -18,7 +18,7 @@ escolha = input("Oh não criatura apareceu, oque fará Herói? \ndigite A para a
 
 match escolha:
     case "A":
-        print("Você ataca sacando sua espada, assim você Derrota o monstro")
+        print("Você ataca com sua espada, assim você Derrota o monstro")
     case "D":
         print("Você defende incasavelmente, passam-se 3 dias e 3 noites, até que sua batalha de resistência termina, e a criatura desmaia de exaustão, espero que tenha valido apena Heroi")
     case "M":
@@ -26,4 +26,5 @@ match escolha:
     case "F":
         print("Você corre com se sua vida dependesse disso, e assim o conto do Heroi covarde se espalha por toda parte")
     case _:
+
         print("você comprou o jogo foi, o meu eo seu...")
